@@ -1,5 +1,6 @@
 public class FormDate {
-    public int day;
-    public int month;
-    public int year;
+    public int day; // день рождения
+    public int month; // месяц рождения
+    public int year; // год рождения
+
 }

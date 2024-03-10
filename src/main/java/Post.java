@@ -1,7 +1,9 @@
 public class Post {
-    FormDate birthday = new FormDate(); //обозначили поле birthday отдельным классом
     public String name; // поле для имени
-    // добавьте другие поля
-    public String passport;
-    public String patronymic;
-    public String phone;
+    public String passport; // поле паспорта
+    public String patronymic; // поле отчество
+    public String phone; // поле номера телефона
+    public String surname; // поле фамилии
+    public boolean subscription;
+    public FormDate birhtday = new FormDate();
+}
